@@ -1,0 +1,16 @@
+<div class="grid grid-cols-3 gap-4">
+  <div>
+    left menu
+  </div>
+  <div class="border-l pb-8">
+    <div class="border-b">
+    tweets and form
+    </div>
+    <tweet [content]="tweet" *ngFor="let tweet of tweets"></tweet>
+
+
+  </div>
+  <div>
+    random stuff
+  </div>
+</div>
